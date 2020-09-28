@@ -1,0 +1,283 @@
+$white: #ffffff
+$color-link: #505f98
+$color-logo: #37447e
+$color-button: #111b47
+$color-heading: #091133
+$color-text: #6f7cb2
+$color-text-functions: #5d6970
+$bg-price: #f3f6ff
+$color-price: #222f65
+$color-slogan: #5d6970
+$bg-footer: #e7ecff
+$color-string: #cdd1d4
+$color-copyright: #939ea4
+$color-link-footer: #929ecc
+
+body 
+	font-family: Roboto, sans-serif
+	max-width: 1440px
+	margin: 0
+	background-color: $white
+	overflow-x: hidden
+
+.bg__picture 
+	width: 1023px
+	height: 1112px
+	position: absolute
+	left: 417px
+	z-index: -1
+
+.container 
+	max-width: 1110px
+	display: flex
+	margin-left: auto
+	margin-right: auto
+	padding-top: 18px
+	&_same 
+		justify-content: space-between
+	
+	&_basement-up 
+		height: 72px
+		border-bottom: 1px solid $color-string
+		justify-content: space-between
+		padding-top: 67px
+	
+	&_basement-down 
+		justify-content: space-between
+		padding-top: 21px
+	
+
+.menu 
+	display: flex
+	&__link 
+		text-decoration: none
+		display: block
+		font-size: 14px
+		line-height: 24px
+		font-weight: 400
+		color: $color-link
+		margin-right: 60px
+		&_basement 
+			color: $color-link-footer
+		
+	
+	&-social 
+		display: flex
+		&__link 
+			display: block
+			width: 16px
+			height: 16px
+			margin-left: 30px
+	
+
+.logo 
+	font-size: 26px
+	line-height: 26px
+	font-weight: 900
+	color: $color-logo
+	margin-left: 212px
+	&_basement 
+		margin-left: 0
+	
+
+.btn 
+	width: 160px
+	height: 26px
+	border-radius: 2px
+	background-color: $color-button
+	font-size: 12px
+	line-height: 18px
+	font-weight: 500
+	color: $white
+	margin-left: 356px
+	border: none
+	cursor: pointer
+	&_main 
+		width: 189px
+		height: 36px
+		margin-left: 0
+		margin-top: 69px
+	
+	&_light 
+		width: 189px
+		height: 36px
+		background-color: transparent
+		border: 2px solid $color-heading
+		color: $color-heading
+		margin-top: 69px
+		margin-left: 30px
+	
+	&_section 
+		width: 150px
+		height: 32px
+		margin-top: 25px
+		margin-left: 0
+	
+	&_price 
+		width: 189px
+		height: 32px
+		margin-left: 0
+		margin-top: 10px
+	
+	&_basement 
+		width: 109px
+		margin-left: 0
+	
+
+.main__picture 
+	width: 663px
+	height: 799px
+	position: absolute
+	top: 241px
+	left: 777px
+
+.main__article 
+	width: 50%
+	margin-top: 199px
+
+.heading 
+	font-size: 50px
+	letter-spacing: 1px
+	line-height: 66px
+	font-weight: 500
+	color: $color-heading
+	margin-bottom: 20px
+	&_section 
+		font-size: 36px
+		letter-spacing: 0
+		line-height: 30px
+	
+	&_functions 
+		font-size: 16px
+		line-height: 26px
+		margin-top: 15px
+	
+
+.main__text 
+	font-size: 18px
+	line-height: 30px
+	font-weight: 400
+	color: $color-link
+
+.buttons 
+	display: flex
+
+.section__article 
+	width: 50%
+	margin-top: 500px
+	&_same 
+		width: 445px
+		margin-top: 214px
+
+	&_same4
+		width: 445px
+		margin-top: 222px
+
+	&_same5
+		width: 445px
+		margin-top: 162px
+	
+
+.section__text 
+	font-size: 16px
+	line-height: 26px
+	font-weight: 400
+	color: $color-text
+	&_price 
+		text-align: center
+		margin-top: 6px
+	
+
+.functions 
+	display: flex
+	justify-content: space-between
+	margin-top: 80px
+	&__descript 
+		width: 244px
+	
+	&__picture 
+		width: 36px
+		height: 36px
+	
+	&__text 
+		font-size: 12px
+		line-height: 18px
+		font-weight: 400
+		color: $color-text-functions
+		margin-top: -15px
+	
+
+.section2__picture 
+	width: 585px
+	height: 563px
+	margin-top: 460px
+	margin-left: 26px
+
+.section3__picture 
+	width: 545px
+	height: 381px
+	margin-top: 161px
+	margin-left: -25px
+
+.section4__picture 
+	width: 585px
+	height: 447px
+	margin-top: 136px
+	margin-left: -25px
+
+.section5__picture 
+	width: 461px
+	height: 359px
+	margin-top: 161px
+	margin-left: 36px
+
+.oval 
+	max-width: inherit
+	height: 200px
+	background-color: inherit
+	border-radius: 0 0 50% 50%
+
+.price 
+	max-width: inherit
+	background-color: $bg-price
+	position: relative
+	top: -50px
+	z-index: -1
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding: 203px 420px 172px
+	&__meaning 
+		font-size: 50px
+		letter-spacing: 1px
+		line-height: 66px
+		font-weight: 500
+		color: $color-price
+		margin-top: 19px
+	
+	&__string 
+		font-size: 16px
+		line-height: 26px
+		font-weight: 400
+		color: $color-logo
+	
+	&__slogan 
+		font-size: 14px
+		line-height: 24px
+		font-weight: 400
+		color: $color-slogan
+		margin-top: 60px
+	
+
+.basement 
+	width: inherit
+	height: 216px
+	background-color: $bg-footer
+	margin-top: -50px
+
+.copyright 
+	font-size: 14px
+	line-height: 24px
+	font-weight: 500
+	color: $color-copyright
+
