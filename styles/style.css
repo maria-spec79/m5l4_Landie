@@ -199,7 +199,7 @@ body {
   max-width: inherit;
   height: 200px;
   background-color: inherit;
-  border-radius: 0 0 50% 50%; }
+  border-radius: 0 0 50% 50%/15%; }
 
 .price {
   max-width: inherit;
